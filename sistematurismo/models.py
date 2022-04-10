@@ -2,7 +2,7 @@ from distutils.command.upload import upload
 from django.db import models
 
 # Create your models here.
-class Cliente(models.Model):
+class cliente(models.Model):
     idcliente=models.CharField(max_length=20, verbose_name="Ci",primary_key=True)
     nomcliente=models.CharField(max_length=30, verbose_name="Nombre")
     appaterno=models.CharField(max_length=30, verbose_name="Apellido Paterno")
